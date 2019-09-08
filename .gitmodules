@@ -2,3 +2,7 @@
 	path = public
 	url = git@github.com:moquapps/moquapps.github.io.git
 	branch = master
+[submodule "moquapps.github.io/public"]
+	path = moquapps.github.io/public
+	url = git@github.com:moquapps/moquapps.github.io.git
+	branch = master
