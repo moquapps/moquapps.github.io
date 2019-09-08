@@ -1,0 +1,83 @@
+baseURL: http://something-fresh.org/
+languageCode: en-us
+title: MoQu Apps
+theme: hugo-fresh
+
+params:
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+   image: logos/moqu.svg
+   link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Hire Us. Get Things Done.
+    # Hero subtitle (optional)
+    subtitle:  We solve your problems with software.
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: "#"
+    # Hero image (from static/images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from static/images/logos/clients/___.svg)
+    clientlogos:
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Portfolio
+    url: /
+  - title: Contact Us
+    url: /
+  section1:
+    title: Warranty for Work
+    subtitle: We are competent & ethical
+    tiles:
+    - title: Desktop & Mobile
+      icon: mouse-globe
+      text: We build clients with beautiful UX.
+      url: /
+      buttonText: Samples
+    - title: Cloud Services
+      icon: laptop-cloud
+      text: We understand cloud nativity and microservices.
+      url: /
+      buttonText: Samples
+    - title: Market Places
+      icon: plug-cloud
+      text: We have built apps for every marketplace.
+      url: /
+      buttonText: Samples
+
+  section2:
+    title: Free Consultation
+    subtitle: We want to understand your problems.
+    features:
+    - title: Clear statement of work
+      text: By providing a clear statement of work, we manage scope ambiguities in billing.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Bug Fixes
+      text: We fix in scope bugs for free in software that you already paid us to create.
+      icon: doc-sync
+    - title: Reachability
+      text: You can reach us 24x7 for support.
+      icon: mobile-feed
+  section4:
+    title: Our clients think of us highly
+    subtitle: Integrity, Reputation & Fairness
+    clients:
+    - name: Irma Walters
+      quote: Moqu built us an ecommerce site. It was unlike any other software vendors, I have worked with in the past. They honor their word.
+      job: Small Buisness Owner
+      img: 1
+    - name: John Bradley
+      quote: Moqu helped us with our add-on strategy. They were able to build our app for every platform and proliferate our presence. Billing was clear. Bugs got fixed. 
+      job: Fintech Entrepreneur
+      img: 2
+    - name: Gary Blackman
+      quote: I needed an online video platform. Folks at Moqu were very knowledgeable. It seemed to me that they enjoyed building my platform more than me.
+      job: Education Marketer
+      img: 3
+  section5: true
